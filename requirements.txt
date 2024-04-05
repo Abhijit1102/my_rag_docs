@@ -1,0 +1,9 @@
+chromadb
+langchain_community
+langchain_openai
+langchain
+chromadb
+python-dotenv
+gradio
+
+-e .
