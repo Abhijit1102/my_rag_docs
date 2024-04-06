@@ -1,5 +1,5 @@
 import chromadb
-client = chromadb.PersistentClient(path="vector_data_base/")
+client = chromadb.PersistentClient(path="vector_data_base")
 
 from src.utils import download_hugging_face_embeddings
 

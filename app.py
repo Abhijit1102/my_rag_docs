@@ -36,6 +36,7 @@ def embedding_query(query):
 
 
 def pdf_extracter(input_file):
+    print(input_file)
     text_chunks =  pdf_text_split(input_file)
     vectors = vectorization_text_chunks(text_chunks)
     vectorized_data_to_db(vectors)
@@ -72,7 +73,7 @@ def llm_response(message, history):
 file_upload = gr.File(label="Upload a file")
 output_text_pdf = gr.Markdown(label="PDF response")
 output_url = gr.Markdown(label="URL response")
-chat_with_file = gr.ChatInterface(fn=llm_response, multimodal=True)
+chat_with_file = gr.ChatInterface(fn=llm_response)
 
 upload_pdf = gr.Interface(
     fn=pdf_extracter,
