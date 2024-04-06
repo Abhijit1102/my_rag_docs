@@ -38,7 +38,7 @@ This project provides tools for extracting text data from PDF files, URLs, and s
 
 ## UI
 
-![UI Image](path/to/ui_image.png)
+![UI Image](ui_image.png)
 
 ## File Descriptions
 
