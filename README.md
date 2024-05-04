@@ -56,4 +56,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For questions or support, please open an issue in the GitHub repository or contact [your email address].
+For questions or support, please open an issue in the GitHub repository or contact [abhijitrajkumar2@gmail.com].
